@@ -11,6 +11,9 @@ import { ProductEditComponent } from './product-edit/product-edit.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
 
+//Chart Module
+import { ChartsModule } from 'ng2-charts';
+
 import {
   MatInputModule,
   MatPaginatorModule,
@@ -72,7 +75,8 @@ const routes: Routes = [
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    ChartsModule
     
   ],
   providers: [],
